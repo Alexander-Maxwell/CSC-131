@@ -47,7 +47,7 @@ private class meal {
 	
 	//Roasted_Green_Beans
 	double greenBeans = 2.0;  //lbs
-	double oliveOil = 1.0;  //tbsp
+	//double oliveOil = 1.0;  //tbsp
 	double kosherSaltTsp = 1.0;  //tsp
 	double blackPepperTsp = 0.5;  //tsp
 	
