@@ -7,7 +7,7 @@ public class driver {
 		System.out.print("What recipe:");
 		Scanner scanner = new Scanner(System.in);
 		String recipe = scanner.next();
-		
+		 
 		if (recipe.contains("corn")) {
 		File corn = new File("/Users/Admin/git/CSC-131-Project-Cuisine-Club/CSC 131 Project/src/Meal_Ingredients/corn_on_the_cob_igr.txt");
 		Scanner scan = new Scanner(corn);
