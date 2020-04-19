@@ -44,55 +44,55 @@ public class Ingredients
 		// If a match is found, it opens the file containing the recipe.
 		if (choice.equalsIgnoreCase("Corn on the Cob"))
 		{
-			String path = "../CSC 131 Project/src/Meal_Ingredients/Corn_on_the_Cob_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Corn_on_the_Cob_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Bucantini Alla Griccia With Gava Beans"))
 		{
-			String path = "../CSC 131 Project/src/Meal_Ingredients/Bucatini_Alla_Griccia_With_Fava_Beans_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Bucatini_Alla_Griccia_With_Fava_Beans_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Emergency Chicken"))
 		{
-			String path = "../CSC 131 Project/src/Meal_Ingredients/Emergency_Chicken_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Emergency_Chicken_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Instant Pot Collard Greens"))
 		{
-			String path = "../CSC 131 Project/src/Meal_Ingredients/Instant_Pot_Collard_Greens_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Instant_Pot_Collard_Greens_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Oven baked Parsley Red"))
 		{
-			String path ="../CSC 131 Project/src/Meal_Ingredients/Oven_Baked_Parsley_Red_Potatoes_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Oven_Baked_Parsley_Red_Potatoes_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Pressure Cooker Hard Boiled Eggs"))
 		{
-			String path ="../CSC 131 Project/src/Meal_Ingredients/Pressure_Cooker_Hard_Boiled_Eggs_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Pressure_Cooker_Hard_Boiled_Eggs_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Roasted Green Beans"))
 		{
-			String path ="../CSC 131 Project/src/Meal_Ingredients/Roasted_Green_Beans_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Roasted_Green_Beans_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Sauteed Radishes"))
 		{
-			String path ="../CSC 131 Project/src/Meal_Ingredients/Sauteed_Radishes_igr.txt";
+			String path ="../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Sauteed_Radishes_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
 		else if (choice.equalsIgnoreCase("Spaghetti Carbonara"))
 		{
-			String path = "../CSC 131 Project/src/Meal_Ingredients/Spaghetti_Carbonara_igr.txt";
+			String path = "../CSC-131-Project-Cuisine-Club/src/Meal_Ingredients/Spaghetti_Carbonara_igr.txt";
 			File file = new File(path);
 			Desktop.getDesktop().open(file);
 		}
