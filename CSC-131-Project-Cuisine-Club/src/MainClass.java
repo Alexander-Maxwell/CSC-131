@@ -26,6 +26,8 @@ public class MainClass
 							+ "\n2. Open meal's ingredients."
 			                + "\n3. Save my ingredients."
 							+ "\n4. Check my ingredients."
+			                + "\n5. Save my allergies."
+							+ "\n6. Check my allergies."
 							+ "\n0. Exit the program."
 							+ "\nAnswer: ");
 			
@@ -48,6 +50,16 @@ public class MainClass
 			else if (choice == 4)
 			{
 				// ingr.ingredientsChecker(input);
+			}
+			else if (choice == 5)
+			{
+			    //save allergies
+			    ingr.allergySaver(input);
+			}
+			else if (choice == 6)
+			{
+			    //check allergies
+			    ingr.allergyChecker();
 			}
 			else if (choice == 0)
 			{

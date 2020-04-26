@@ -193,4 +193,30 @@ public class Ingredients
 		required.close();
 		missingIngredients.close();
 	}
+	
+	public void allergyChecker() throws IOException
+	{
+	    //read list of allergies from allergy_info.txt
+	    BufferedReader in = new BufferedReader(new FileReader("allergy_info.txt"));
+	    
+	    String line;
+	    while((line = in.readLine()) != null)
+	    {
+	        System.out.println(line);
+	    }
+	    in.close();
+	}
+	
+	public void allergySaver(Scanner console) throws IOException 
+	{   
+	    System.out.println("Enter name of allergy: ");
+	    console.nextLine();
+	    String newAllergy = console.nextLine();
+	    
+	    BufferedWriter writer = new BufferedWriter(new FileWriter("allergy_info.txt", true));  
+	    writer.newLine();
+	    writer.write(newAllergy);
+	    writer.close();
+	}
+	
 }
